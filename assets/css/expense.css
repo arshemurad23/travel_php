@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Banner */
+.hero-wrap {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 80%; /* Adjusted width */
+    max-width: 1000px; /* Maximum width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Budget Planner */
+.budget-planner {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+}
+
+.section-heading {
+    font-size: 2.5rem; /* Larger heading */
+    margin-bottom: 30px; /* More spacing */
+    color: #F0543E; /* Orange color */
+    text-align: center;
+}
+
+/* Form Styles */
+.budget-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.submit-btn {
+    background-color: #F0543E; /* Orange color */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #d43f30; /* Darker orange */
+}
+
+/* Alerts */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.table {
+    width: 100%; /* Set the table width to 100% of the container */
+    border-collapse: collapse; /* Merge borders for a cleaner look */
+}
+
+.table th, .table td {
+    padding: 12px; /* Add padding for better spacing */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add border to table cells */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5; /* Highlight row on hover */
+}
+
